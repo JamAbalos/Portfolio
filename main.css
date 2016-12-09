@@ -24,20 +24,13 @@ body {
 }
 
 nav {
-	background-color: #212121;
+	background-color: #2e2925;
 }
 
 .titles {
 	text-align: center;
 	margin: 0;
 	color: #fff;
-	font-weight: 100;
-}
-
-.header {
-	color: #fff;
-	margin: 0;
-	text-align: center;
 	font-weight: 100;
 }
 
@@ -62,16 +55,49 @@ nav .current {
 	padding: .5em;
 }
 
+.header{
+ 	display: block;
+ 	margin: 0 auto;
+ 	padding: 10px;
+ }
+
+
 .nav-social {
 	text-align: center;
+}
+
+.banner-img {
+	background: url("../background.jpg") no-repeat center center fixed;
+	width: 100%;
+	background-size: cover;
+	display: block;
+}
+
+.banner-intro {
+	background: url("../images/namelogo.png") no-repeat center;
+	width: 100%;
+	text-align: center;
+	padding: 25.25%;
 }
 
 .img-flex {
 	display: block;
 	width: 100%;
 }
+
+.bw-img {
+	filter: grays;
+	-webkit-filter: grayscale(100%) blur(1px);
+	-webkit-transition: all .5s ease;
+}
+
+.bw-img:hover {
+	filter: none;
+	-webkit-filter: none;
+}
+
  .gutter {
- 	padding: 1em;
+ 	padding: 10px;
  }
 
  .topbox {
@@ -85,8 +111,18 @@ nav .current {
  }
 
  .picbox  {
- 	background-color: #212121;
- 	padding-top: 1em;
+ 	background-color: #2e2925;
+ 	padding-top: 3px;
+ }
+
+ .picbox-wrap {
+ 	padding: 3%;
+ 	background-color: #2e2925;
+ }
+
+ .infobox-wrap {
+ 	padding: 3%;
+ 	background-color: #f1f1f3;
  }
 
  .infobox {
@@ -99,7 +135,7 @@ nav .current {
 
  footer {
  	text-align: center;
- 	background-color: #212121;
+ 	background-color: #2e2925;;
  	color: #fff;
  	position:fixed;bottom:0;left:0;right:0;height:30px;
  }
@@ -114,7 +150,8 @@ nav .current {
 
  	.header{
  		position: absolute;
- 		padding-left: 1em;
+ 		margin: 15px 0 0 60px;
+ 		padding: 0;
  	}
 
  	.nav-social {
