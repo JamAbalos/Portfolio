@@ -67,17 +67,17 @@ nav .current {
 }
 
 .banner-img {
-	background: url("../background.jpg") no-repeat center center fixed;
 	width: 100%;
 	background-size: cover;
-	display: block;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .banner-intro {
-	background: url("../images/namelogo.png") no-repeat center;
-	width: 100%;
+	position: absolute;
 	text-align: center;
-	padding: 25.25%;
+	margin: 0 auto;
 }
 
 .img-flex {
