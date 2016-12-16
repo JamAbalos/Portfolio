@@ -72,12 +72,30 @@ nav .current {
  	background-size: cover;
  	display: block;
  }
+
+ .banner-wrap {
+ 	padding-top: 17%;
+ 	padding-bottom: 25.25%;
+ }
  
  .banner-intro {
  	background: url("../images/namelogo.png") no-repeat center;
  	width: 100%;
  	text-align: center;
- 	padding: 25.25%;
+ 	padding: 15%;
+}
+
+.page-nav {
+	text-align: center;
+	margin: 0 ;
+}
+
+.page-nav li a {
+	border-style: solid;
+	border-color: #fff;
+	border-width: 2px;
+	padding: 15px 20px;
+	color: #fff;
 }
 
 .img-flex {
@@ -116,12 +134,12 @@ nav .current {
  }
 
  .picbox-wrap {
- 	padding: 3%;
+ 	padding: 10%;
  	background-color: #2e2925;
  }
 
  .infobox-wrap {
- 	padding: 3%;
+ 	padding: 23% 0;
  	background-color: #f1f1f3;
  }
 
@@ -142,11 +160,19 @@ nav .current {
 
  @media only screen and (min-width: 25em) {
 
+ 	.banner-intro {
+ 		padding: 15%;
+	}
+
  	ul {
  		text-align: center;
  	}
 
  @media only screen and (min-width: 38em) {
+
+ 	.banner-intro {
+ 		padding: 5%;
+	}
 
  	.header{
  		position: absolute;
