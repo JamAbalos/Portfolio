@@ -118,21 +118,6 @@ nav .current {
  	padding: 10px;
  }
 
- .topbox {
- 	background-color: #f0f0f0;
- 	margin: 0;
- }
-
- .mainbox {
- 	padding-top: 1em;
- 	padding-bottom: 1em;
- }
-
- .picbox  {
- 	background-color: #2e2925;
- 	padding-top: 3px;
- }
-
  .picbox-wrap {
  	padding: 10%;
  	background-color: #2e2925;
@@ -141,14 +126,6 @@ nav .current {
  .infobox-wrap {
  	padding: 23% 0;
  	background-color: #f1f1f3;
- }
-
- .infobox {
- 	background-color: #e0e0e0;
- }
-
- .subhead {
- 	margin-top: 1em;
  }
 
  footer {
