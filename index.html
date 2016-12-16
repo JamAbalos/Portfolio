@@ -4,24 +4,43 @@ layout: default
 
 
 	<div class="banner-img">
-		<div class="banner-intro"></div>
+		<div class="banner-wrap">
+			<div class="banner-intro"></div>
+			<ul class="page-nav">
+				<li>
+				    <a href="#about">About
+					</a>
+				</li>
+
+				<li>
+				    <a href="#about">Contact
+					</a>
+				</li>
+
+				<li>
+				    <a href="#projects">Projects
+					</a>
+				</li>
+			</ul>
+		</div>
+
 	</div>
 
-	<div class="infobox-wrap">
+	<div class="infobox-wrap" id="about">
 		<div class="grid">
-			<div class="unit [ sx-1 s-1 m-1-2 l-1-2 ] gutter">
+			<div class="unit [ sx-1 s-1 m-1-2 l-1-2 ] gutter-double">
 			<h6>About</h6>
 			<p>My name is Jam Abalos. I'm a freelancer, student, and graphic designer currently studying in Algonquin College. I like simple, I like clean, I like minimal design, and I love cookies.</p>
 			</div>
 
-			<div class="unit [ sx-1 s-1 m-1-2 l-1-2 ] gutter">
+			<div class="unit [ sx-1 s-1 m-1-2 l-1-2 ] gutter-double">
 				<h6>Contact</h6>
 				<p>If you want to contact me and say hello or give me feedback you can do so at jam.abalos@hotmail.com.</p>
 			</div>
 		</div>
 	</div>
 
-<div class="picbox-wrap">
+<div class="picbox-wrap" id="projects">
 	<div class="grid picbox">
 		<div class="unit [ sx-1 s-1 m-1-3 l-1-3 ] gutter">
 			<h5 class="titles">Censorship</h5>
@@ -64,3 +83,8 @@ layout: default
 		</div>
 	</div>
 </div>
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
+<script src="{{site.baseurl}}/js/smooth-scroll.js"></script>
